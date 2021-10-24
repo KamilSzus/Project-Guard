@@ -5,7 +5,7 @@ using UnityEngine;
 public class Person : MonoBehaviour
 {
     public int age;
-    public string gender
+    public string gender;
     public string race;
     public string firstName;
     public string lastName;
