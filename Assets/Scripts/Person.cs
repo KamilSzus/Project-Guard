@@ -5,7 +5,7 @@ using UnityEngine;
 public class Person : MonoBehaviour
 {
     public int age;
-    public string gender;
+    public string gender
     public string race;
     public string firstName;
     public string lastName;
@@ -21,6 +21,7 @@ public class Person : MonoBehaviour
         this.pass = pass;
     }
 
+    //Can be replaced with { get; } at variable names
     public int getAge() {
         return age;
     }
@@ -44,4 +45,5 @@ public class Person : MonoBehaviour
     public Pass getPass() {
         return pass;
     }
+
 }
