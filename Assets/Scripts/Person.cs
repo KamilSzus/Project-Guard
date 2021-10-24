@@ -46,4 +46,20 @@ public class Person : MonoBehaviour
         return pass;
     }
 
+    public bool comparePass(int id) {
+        switch (id) {
+            case 0:
+                return pass.age == age;
+            case 1:
+                return pass.gender == gender;
+            case 2:
+                return pass.race == race;
+            case 3:
+                return pass.firstName == firstName;
+            case 4:
+                return pass.lastName == lastName;
+            default:
+                return false;
+        }
+    }
 }
