@@ -10,33 +10,6 @@ public class PersonInfo : MonoBehaviour
 
     private Race race;
     private Fraction fraction;
-    class Race
-    {
-        private string raceName;
-        public string getRace()
-        {
-            return raceName;
-        }
-
-        public void setRace(string raceName)
-        {
-            this.raceName = raceName;
-        }
-    };
-    class Fraction
-    {
-        private string fractionName;
-
-        public string getFraction()
-        {
-            return fractionName;
-        }
-
-        public void setFraction(string fractionName)
-        {
-            this.fractionName = fractionName;
-        }
-    };
 
     public PersonInfo(int id, string personName, string personSurname, string raceName, string fractionName)
     {
@@ -90,4 +63,34 @@ public class PersonInfo : MonoBehaviour
             return false;
         return true;
     }
+
+    class Race
+    {
+        private string raceName;
+        public string getRace()
+        {
+            return raceName;
+        }
+
+        public void setRace(string raceName)
+        {
+            this.raceName = raceName;
+        }
+    };
+
+    class Fraction
+    {
+        private string fractionName;
+
+        public string getFraction()
+        {
+            return fractionName;
+        }
+
+        public void setFraction(string fractionName)
+        {
+            this.fractionName = fractionName;
+        }
+    };
+
 }
