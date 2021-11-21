@@ -43,5 +43,6 @@ static public class RandomGeneratePerson
     {
         return faith[UnityEngine.Random.Range(0, faith.Length - 1)];
     }
+
 }
         
