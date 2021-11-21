@@ -8,20 +8,27 @@ public class PersonInfo : MonoBehaviour
     private string personName;
     private string personSurname;
     private Race race;
+    private Fraction fraction;
 
     public int Id { get => id; set => id = value; }
     public string PersonName { get => personName; set => personName = value; }
     public string PersonSurname { get => personSurname; set => personSurname = value; }
     public Race Race { get => race; set => race = value; }
+    public Fraction Fraction { get => fraction; set => fraction = value; }
 
-    public PersonInfo(int id, string personName, string personSurname, Race race)
+    public PersonInfo(int id, string personName, string personSurname, Race race, Fraction fraction)
     {
-        Id = id;
-        PersonName = personName;
-        PersonSurname = personSurname;
-        this.race = race;
+        this.Id = id;
+        this.PersonName = personName;
+        this.PersonSurname = personSurname;
+        this.Race = race;
+        this.Fraction = fraction;
     }
 
+    public override string ToString()
+    {
+        return "Person: " + Id + "\n" + PersonName + "\n" + PersonSurname + "\n" + Race.RaceName + "\n" + Fraction.Faith + "\n" + Fraction.FractionName;
+    }
     private bool compareInfo(PersonInfo personInfo)
     {
         if (personInfo.Id != Id)

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Race
+public class Race : MonoBehaviour
 {
     private string raceName;
     private int raceBonus;//it will be enum determining bonuses from race for example dvarwes heave more gold
