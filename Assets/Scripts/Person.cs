@@ -28,8 +28,10 @@ public class Person : MonoBehaviour
         this.Pass = pass;
     }
 
-    public bool comparePass(int id) {
-        switch (id) {
+    public bool comparePass(int id)
+    {
+        switch (id)
+        {
             case 0:
                 return Pass.Age == Age;
             case 1:
