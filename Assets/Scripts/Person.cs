@@ -4,66 +4,44 @@ using UnityEngine;
 
 public class Person : MonoBehaviour
 {
-<<<<<<< HEAD
-    
-=======
-    public int age;
-    public string gender;
-    public string race;
-    public string firstName;
-    public string lastName;
-    public Pass pass;
+    private int age;
+    private string gender;
+    private Race race;
+    private string firstName;
+    private string lastName;
+    private Pass pass;
 
-    public Person(int age, string gender, string race, string firstName, string lastName, Pass pass)
+    public int Age { get => age; set => age = value; }
+    public string Gender { get => gender; set => gender = value; }
+    public string FirstName { get => firstName; set => firstName = value; }
+    public string LastName { get => lastName; set => lastName = value; }
+    public Pass Pass { get => pass; set => pass = value; }
+    public Race Race { get => race; set => race = value; }
+
+    public Person(int age, string gender, Race race, string firstName, string lastName, Pass pass)
     {
-        this.age = age;
-        this.gender = gender;
-        this.race = race;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.pass = pass;
-    }
-
-    //Can be replaced with { get; } at variable names
-    public int getAge() {
-        return age;
-    }
-
-    public string getGender() {
-        return gender;
-    }
-
-    public string getRace() {
-        return race;
-    }
-
-    public string getFirstName() {
-        return firstName;
-    }
-
-    public string getLastName() {
-        return lastName;
-    }
-
-    public Pass getPass() {
-        return pass;
+        this.Age = age;
+        this.Gender = gender;
+        this.Race = race;
+        this.FirstName = firstName;
+        this.LastName = lastName;
+        this.Pass = pass;
     }
 
     public bool comparePass(int id) {
         switch (id) {
             case 0:
-                return pass.age == age;
+                return Pass.Age == Age;
             case 1:
-                return pass.gender == gender;
+                return Pass.Gender == Gender;
             case 2:
-                return pass.race == race;
+                return Pass.Race.RaceName == Race.RaceName;
             case 3:
-                return pass.firstName == firstName;
+                return Pass.FirstName == FirstName;
             case 4:
-                return pass.lastName == lastName;
+                return Pass.LastName == LastName;
             default:
                 return false;
         }
     }
->>>>>>> 4ed893febee4f68e13dbc0e5932b7a74e58981b2
 }

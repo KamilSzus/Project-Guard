@@ -7,90 +7,32 @@ public class PersonInfo : MonoBehaviour
     private int id;
     private string personName;
     private string personSurname;
-
     private Race race;
-    private Fraction fraction;
 
-    public PersonInfo(int id, string personName, string personSurname, string raceName, string fractionName)
-    {
-        this.id = id;
-        this.personName = personName;
-        this.personSurname = personSurname;
-        this.race.setRace(raceName);
-        this.fraction.setFraction(fractionName);
-    }
+    public int Id { get => id; set => id = value; }
+    public string PersonName { get => personName; set => personName = value; }
+    public string PersonSurname { get => personSurname; set => personSurname = value; }
+    public Race Race { get => race; set => race = value; }
 
-    public int getId()
+    public PersonInfo(int id, string personName, string personSurname, Race race)
     {
-        return id;
-    }
-
-    public void setId(int id)
-    {
-        this.id = id;
-    }
-
-    public string getPersonName()
-    {
-        return personName;
-    }
-
-    public void setPersonName(string personName)
-    {
-        this.personName = personName;
-    }
-    public string getPersonSurname()
-    {
-        return personSurname;
-    }
-
-    public void setPersonSurname(string personSurname)
-    {
-        this.personSurname = personSurname;
+        Id = id;
+        PersonName = personName;
+        PersonSurname = personSurname;
+        this.race = race;
     }
 
     private bool compareInfo(PersonInfo personInfo)
     {
-        if (personInfo.id != id)
+        if (personInfo.Id != Id)
             return false;
-        else if (personInfo.personName != personName)
+        else if (personInfo.PersonName != PersonName)
             return false;
-        else if (personInfo.personSurname != personSurname)
+        else if (personInfo.PersonSurname != PersonSurname)
             return false;
-        else if (personInfo.race.getRace() != race.getRace())
-            return false;
-        else if (personInfo.fraction.getFraction() != fraction.getFraction())
+        else if (personInfo.Race.RaceName != race.RaceName)
             return false;
         return true;
     }
-
-    class Race
-    {
-        private string raceName;
-        public string getRace()
-        {
-            return raceName;
-        }
-
-        public void setRace(string raceName)
-        {
-            this.raceName = raceName;
-        }
-    };
-
-    class Fraction
-    {
-        private string fractionName;
-
-        public string getFraction()
-        {
-            return fractionName;
-        }
-
-        public void setFraction(string fractionName)
-        {
-            this.fractionName = fractionName;
-        }
-    };
 
 }
