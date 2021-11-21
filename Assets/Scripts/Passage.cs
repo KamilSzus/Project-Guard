@@ -56,7 +56,9 @@ public class Passage : MonoBehaviour
         return fractionInfo;
     }
 
-    void Start()
+
+
+    public void showPassage()
     {
         PersonInfo personInfoObject = MakePersonInfoObject();
         Race raceInfoObject = MakeRaceInfoObject();
@@ -69,6 +71,9 @@ public class Passage : MonoBehaviour
         // Debug.Log(personInfoObject.Fraction.FractionName);
 
         GameObject stamp = GameObject.FindGameObjectWithTag("stamp"); // tag in TextGameObject
+        Image passImage = GameObject.Find("Image").GetComponent<Image>();
+        passImage.enabled = true;
+
         if (stamp != null)
         {
             Text textObject = stamp.GetComponent<Text>(); //get the text component in the gameobject you assigned
@@ -79,9 +84,5 @@ public class Passage : MonoBehaviour
             "Frakcja: " + fractionInfoObject.FractionName + '\n' +
             "Frakcja(wiara): " + fractionInfoObject.Faith + '\n'; //set the text in the text component
         }
-    }
-    void Update()
-    {
-        
     }
 }
