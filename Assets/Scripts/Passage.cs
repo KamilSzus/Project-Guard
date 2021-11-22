@@ -10,6 +10,7 @@ public class Passage : MonoBehaviour
     // Passage script add as Component to Canvas and as a Text Game Object set TextGameObject
     // To create TextGameObject create Create Empty in Canvas and set tag stamp
     private PersonInfo info;
+    private Image passImage;
     public Passage(PersonInfo info)
     {
         this.info = info;
@@ -56,7 +57,13 @@ public class Passage : MonoBehaviour
         return fractionInfo;
     }
 
+    //AddComponent<> seem to be bugged as they put components to a SampleScene hierarchy
+    //every time you hit show passage button
 
+    public void Awake() {
+        GameObject button = GameObject.Find("ExitPassButton");
+        button.SetActive(false);
+    }
 
     public void showPassage()
     {
@@ -71,18 +78,29 @@ public class Passage : MonoBehaviour
         // Debug.Log(personInfoObject.Fraction.FractionName);
 
         GameObject stamp = GameObject.FindGameObjectWithTag("stamp"); // tag in TextGameObject
-        Image passImage = GameObject.Find("Image").GetComponent<Image>();
+        passImage = GameObject.Find("Image").GetComponent<Image>();
         passImage.enabled = true;
 
         if (stamp != null)
         {
             Text textObject = stamp.GetComponent<Text>(); //get the text component in the gameobject you assigned
-            
+            textObject.enabled = true;
             textObject.text = "Imie: " + personInfoObject.PersonName + '\n' + 
             "Nazwisko: " + personInfoObject.PersonSurname + '\n' +
             "Rasa: " + raceInfoObject.RaceName + '\n' +
             "Frakcja: " + fractionInfoObject.FractionName + '\n' +
             "Frakcja(wiara): " + fractionInfoObject.Faith + '\n'; //set the text in the text component
+        }
+    }
+
+    public void hidePassage() {
+        passImage = GameObject.Find("Image").GetComponent<Image>();
+        GameObject stamp = GameObject.FindGameObjectWithTag("stamp");
+        Text textObject = stamp.GetComponent<Text>();
+        if (passImage.enabled == true && textObject.enabled == true)
+        {
+            passImage.enabled = false;
+            textObject.enabled = false;
         }
     }
 }
