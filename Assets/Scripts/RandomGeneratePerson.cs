@@ -15,33 +15,33 @@ static public class RandomGeneratePerson
     private static readonly string[] fraction = new string[] { "Bandyta", "Najemnik", "Kap³an", "Nikt", "Paladyn", "Stra¿nik", "Ch³op", "Wampir", "£owca Smoków", "Kupiec" };
     private static readonly string[] faith = new string[] { "Kult S³oñca", "Kult Ognia", "Kult Œmierci", "Kult Powietrza", "Kult Wody", "Kult Ziemii" };
 
-     static public string generateRandomMaleName()
-     {
-        return nameMale[UnityEngine.Random.Range(0, nameMale.Length - 1)];
-     }
+    static public string generateRandomMaleName()
+    {
+       return nameMale[UnityEngine.Random.Range(0, nameMale.Length)];
+    }
     static public string generateRandomFemaleName()
     {
-        return nameFemale[UnityEngine.Random.Range(0, nameFemale.Length - 1)];
+        return nameFemale[UnityEngine.Random.Range(0, nameFemale.Length)];
     }
     static public string generateRandomGender()
     {
-        return gender[UnityEngine.Random.Range(0, gender.Length - 1)];
+        return gender[UnityEngine.Random.Range(0, gender.Length)];
     }
     static public string generateRandomRace()
     {
-        return race[UnityEngine.Random.Range(0, race.Length - 1)];
+        return race[UnityEngine.Random.Range(0, race.Length)];
     }
     static public string generateRandomFraction()
     {
-        return fraction[UnityEngine.Random.Range(0, fraction.Length - 1)];
+        return fraction[UnityEngine.Random.Range(0, fraction.Length)];
     }
     static public string generateRandomLastName()
     {
-        return lastName[UnityEngine.Random.Range(0, lastName.Length - 1)];
+        return lastName[UnityEngine.Random.Range(0, lastName.Length)];
     }
     static public string generateRandomFaith()
     {
-        return faith[UnityEngine.Random.Range(0, faith.Length - 1)];
+        return faith[UnityEngine.Random.Range(0, faith.Length)];
     }
 
 }
