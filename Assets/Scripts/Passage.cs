@@ -59,6 +59,14 @@ public class Passage : MonoBehaviour
 
     //AddComponent<> seem to be bugged as they put components to a SampleScene hierarchy
     //every time you hit show passage button
+<<<<<<< HEAD
+=======
+
+    public void Awake() {
+        GameObject button = GameObject.Find("ExitPassButton");
+        button.SetActive(false);
+    }
+>>>>>>> 76f5fb3517b41475ce8f1e7b321d86f8fac39f74
 
     public void showPassage()
     {
