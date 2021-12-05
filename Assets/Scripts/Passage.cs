@@ -11,6 +11,7 @@ public class Passage : MonoBehaviour
     // To create TextGameObject create Create Empty in Canvas and set tag stamp
     private PersonInfo info;
     private Image passImage;
+    public GameObject button;
     public Passage(PersonInfo info)
     {
         this.info = info;
@@ -24,8 +25,15 @@ public class Passage : MonoBehaviour
         //Race raceInfo = gameObject.AddComponent<Race>();
         //Fraction fractionInfo = gameObject.AddComponent<Fraction>();
 
-        personInfo.PersonName = "Ala";
-        personInfo.PersonSurname = "Kowalska";
+        string gender = RandomGeneratePerson.generateRandomGender();
+        Debug.Log(gender);
+
+
+        if(gender.Equals("Male"))
+            personInfo.PersonName = RandomGeneratePerson.generateRandomMaleName();
+        else
+            personInfo.PersonName = RandomGeneratePerson.generateRandomFemaleName();
+        personInfo.PersonSurname = RandomGeneratePerson.generateRandomLastName();
         //personInfo.Race.RaceName = "Ork";
         //personInfo.Fraction.Faith = "Chrześcijanin";
         //personInfo.Fraction.FractionName = "Najemnik";
@@ -41,7 +49,7 @@ public class Passage : MonoBehaviour
         GameObject gameObject = new GameObject("Race");
         Race raceInfo = gameObject.AddComponent<Race>();
 
-        raceInfo.RaceName = "Ork";
+        raceInfo.RaceName = RandomGeneratePerson.generateRandomRace();
 
         return raceInfo;
     }
@@ -51,22 +59,14 @@ public class Passage : MonoBehaviour
         GameObject gameObject = new GameObject("Fraction");
         Fraction fractionInfo = gameObject.AddComponent<Fraction>();
 
-        fractionInfo.Faith = "Chrześcijanka";
-        fractionInfo.FractionName = "Najemniczka";
+        fractionInfo.Faith = RandomGeneratePerson.generateRandomFaith();
+        fractionInfo.FractionName = RandomGeneratePerson.generateRandomFraction();
 
         return fractionInfo;
     }
 
     //AddComponent<> seem to be bugged as they put components to a SampleScene hierarchy
     //every time you hit show passage button
-<<<<<<< HEAD
-=======
-
-    public void Awake() {
-        GameObject button = GameObject.Find("ExitPassButton");
-        button.SetActive(false);
-    }
->>>>>>> 76f5fb3517b41475ce8f1e7b321d86f8fac39f74
 
     public void showPassage()
     {
@@ -93,8 +93,16 @@ public class Passage : MonoBehaviour
             "Rasa: " + raceInfoObject.RaceName + '\n' +
             "Frakcja: " + fractionInfoObject.FractionName + '\n' +
             "Frakcja(wiara): " + fractionInfoObject.Faith + '\n'; //set the text in the text component
+            button.SetActive(true);
         }
     }
+
+    /*public void showButton() {
+        GameObject button = GameObject.FindGameObjectWithTag("passageButton");
+        Debug.Log(button);
+        if (button != null)
+            button.SetActive(true);
+    }*/
 
     public void hidePassage() {
         passImage = GameObject.Find("Image").GetComponent<Image>();
@@ -102,6 +110,7 @@ public class Passage : MonoBehaviour
         Text textObject = stamp.GetComponent<Text>();
         if (passImage.enabled == true && textObject.enabled == true)
         {
+            button.SetActive(false);
             passImage.enabled = false;
             textObject.enabled = false;
         }
