@@ -31,6 +31,16 @@ public class Passage : MonoBehaviour
         else
             personInfo.PersonName = RandomGeneratePerson.generateRandomFemaleName();
         personInfo.PersonSurname = RandomGeneratePerson.generateRandomLastName();
+        //personInfo.Race.RaceName = "Ork";
+        //personInfo.Fraction.Faith = "Chrzeœcijanin";
+        //personInfo.Fraction.FractionName = "Najemnik";
+
+
+        if(gender.Equals("Male"))
+            personInfo.PersonName = RandomGeneratePerson.generateRandomMaleName();
+        else
+            personInfo.PersonName = RandomGeneratePerson.generateRandomFemaleName();
+        personInfo.PersonSurname = RandomGeneratePerson.generateRandomLastName();
 
         return personInfo;
     }
@@ -54,6 +64,9 @@ public class Passage : MonoBehaviour
 
         return fractionInfo;
     }
+
+    //AddComponent<> seem to be bugged as they put components to a SampleScene hierarchy
+    //every time you hit show passage button
 
     public void showPassage()
     {
