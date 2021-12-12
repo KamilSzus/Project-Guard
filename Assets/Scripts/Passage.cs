@@ -11,7 +11,11 @@ public class Passage : MonoBehaviour
     // To create TextGameObject create Create Empty in Canvas and set tag stamp
     private PersonInfo info;
     private Image passImage;
-    public GameObject button;
+    public GameObject button; // has to be public
+
+    public PersonInfo personInfoObject;
+    public Race raceInfoObject;
+    public Fraction fractionInfoObject;
     public Passage(PersonInfo info)
     {
         this.info = info;
@@ -19,7 +23,12 @@ public class Passage : MonoBehaviour
 
     public PersonInfo MakePersonInfoObject()
     {
-        GameObject gameObject = new GameObject("PersonInfo");
+        if(GameObject.Find("PersonInfo") == null) // creating only one GameObject
+        {
+            GameObject gameObject = new GameObject("PersonInfo");
+        }
+
+        //GameObject gameObject = new GameObject("PersonInfo");
         PersonInfo personInfo = gameObject.AddComponent<PersonInfo>();
 
         string gender = RandomGeneratePerson.generateRandomGender();
@@ -32,7 +41,7 @@ public class Passage : MonoBehaviour
             personInfo.PersonName = RandomGeneratePerson.generateRandomFemaleName();
         personInfo.PersonSurname = RandomGeneratePerson.generateRandomLastName();
         //personInfo.Race.RaceName = "Ork";
-        //personInfo.Fraction.Faith = "Chrzeœcijanin";
+        //personInfo.Fraction.Faith = "Chrzeï¿½cijanin";
         //personInfo.Fraction.FractionName = "Najemnik";
 
 
@@ -46,7 +55,12 @@ public class Passage : MonoBehaviour
     }
     public Race MakeRaceInfoObject()
     {
-        GameObject gameObject = new GameObject("Race");
+        if(GameObject.Find("Race") == null) // creating only one GameObject
+        {
+            GameObject gameObject = new GameObject("Race");
+        }
+
+        //GameObject gameObject = new GameObject("Race");
         Race raceInfo = gameObject.AddComponent<Race>();
 
         raceInfo.RaceName = RandomGeneratePerson.generateRandomRace();
@@ -56,7 +70,12 @@ public class Passage : MonoBehaviour
 
     public Fraction MakeFractionInfoObject()
     {
-        GameObject gameObject = new GameObject("Fraction");
+        if(GameObject.Find("Fraction") == null) // creating only one GameObject
+        {
+            GameObject gameObject = new GameObject("Fraction");
+        }
+        
+        //GameObject gameObject = new GameObject("Fraction");
         Fraction fractionInfo = gameObject.AddComponent<Fraction>();
 
         fractionInfo.Faith = RandomGeneratePerson.generateRandomFaith();
@@ -65,14 +84,23 @@ public class Passage : MonoBehaviour
         return fractionInfo;
     }
 
-    //AddComponent<> seem to be bugged as they put components to a SampleScene hierarchy
-    //every time you hit show passage button
+    public void generateNewInfo() // modify this function to generate random values
+    {
+        personInfoObject = MakePersonInfoObject();
+        raceInfoObject = MakeRaceInfoObject();
+        fractionInfoObject = MakeFractionInfoObject();
+    }
 
+    //AddComponent<> seems to be bugged as they put components to a SampleScene hierarchy
+    //every time you hit show passage button
     public void showPassage()
     {
-        PersonInfo personInfoObject = MakePersonInfoObject();
-        Race raceInfoObject = MakeRaceInfoObject();
-        Fraction fractionInfoObject = MakeFractionInfoObject();
+        if(personInfoObject == null && raceInfoObject == null && fractionInfoObject == null) // one time execute
+        {
+            personInfoObject = MakePersonInfoObject();
+            raceInfoObject = MakeRaceInfoObject();
+            fractionInfoObject = MakeFractionInfoObject();
+        }
 
         GameObject stamp = GameObject.FindGameObjectWithTag("stamp"); // tag in TextGameObject
         passImage = GameObject.Find("Image").GetComponent<Image>();
