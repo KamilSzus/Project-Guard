@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prlog.unity
     guid: 55ba25381570c544aa5cb2c85a77899a
+  - enabled: 0
+    path: Assets/Scenes/Pause.unity
+    guid: 4810105b021f663479ec08e4799e9b3a
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
