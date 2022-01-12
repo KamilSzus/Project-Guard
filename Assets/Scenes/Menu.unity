@@ -325,7 +325,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &152924105
 RectTransform:
   m_ObjectHideFlags: 0
@@ -346,8 +346,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000023842, y: 0}
-  m_SizeDelta: {x: 487.4601, y: 391}
+  m_AnchoredPosition: {x: 44.6455, y: 0}
+  m_SizeDelta: {x: 576.751, y: 391}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &219010290
 GameObject:
@@ -2015,13 +2015,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Kamil Wrobel
-
-    Kamil Szustak
-
-    Mateusz Kapka
-
-    Adam Pietrasik'
+  m_text: "Tw\xF3rcy:\nKamil Wrobel 228893\nKamil Szustak 228867\nMateusz Kapka 222459\nAdam
+    Pietrasik 228830\nGrupa Technologia Internetowe 4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2425,7 +2420,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1234761667
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3066,8 +3061,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.273283, y: -154.376}
-  m_SizeDelta: {x: 265.9704, y: 76.1882}
+  m_AnchoredPosition: {x: -0.0000095367, y: -193}
+  m_SizeDelta: {x: 265.9704, y: 94.877}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1630322956
 MonoBehaviour:
@@ -3232,7 +3227,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Project Guard
+  m_text: "Tytu\u0142 Projektu: Project Guard"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3668,7 +3663,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1907324586
 RectTransform:
   m_ObjectHideFlags: 0
