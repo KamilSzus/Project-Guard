@@ -7,11 +7,11 @@ using UnityEngine;
 public class PartManager
 {
     XmlNode partNode;
-    Color skinColor { get; set; } = Color.clear;
-    Color hairColor { get; set; } = Color.clear;
-    Color pupilColor { get; set; } = Color.clear;
-    Color clothesColor { get; set; } = Color.clear;
-    Color secondaryColor { get; set; } = Color.clear;
+    public Color skinColor { get; set; } = Color.clear;
+    public Color hairColor { get; set; } = Color.clear;
+    public Color pupilColor { get; set; } = Color.clear;
+    public Color clothesColor { get; set; } = Color.clear;
+    public Color secondaryColor { get; set; } = Color.clear;
 
     public PartManager(XmlNode partNode)
     {
@@ -20,7 +20,14 @@ public class PartManager
 
     public Texture2D mergeLayers()
     {
-        Texture2D mergedTexture = null;
+        Texture2D mergedTexture = new Texture2D(SpritesMetaData.spritePixelWidth, SpritesMetaData.spritePixelHeight);
+        Color[] transparentBackground = new Color[SpritesMetaData.spritePixelWidth * SpritesMetaData.spritePixelHeight];
+        for (int i = 0; i < transparentBackground.Length; i++)
+        {
+            transparentBackground[i] = Color.clear;
+        }
+        mergedTexture.SetPixels(transparentBackground);
+        mergedTexture.Apply();
 
         string resourcePath = GetNodeResourcePath(partNode);
 
@@ -28,7 +35,8 @@ public class PartManager
 
         foreach (XmlNode layer in layers)
         {
-            Texture2D textureLayer = Resources.Load<Texture2D>(resourcePath + "/" + layer["filename"].InnerText);
+            string textureLayerPath = "Character_Assets_Structure/" + resourcePath + layer["filename"].InnerText;
+            Texture2D textureLayer = Resources.Load<Texture2D>(textureLayerPath);
 
             Color[] newPixels = mergedTexture == null ? new Color[textureLayer.width * textureLayer.height] : mergedTexture.GetPixels();
             Color[] layerPixels = PixelsOperations.DuplicateTexture(textureLayer).GetPixels();
@@ -80,7 +88,7 @@ public class PartManager
             {
                 int pixelIndex = x + (y * width);
 
-                if (layer[pixelIndex].a > 0)
+                if (newLayer[pixelIndex].a > 0)
                     newLayer[pixelIndex] = blendType(layer[pixelIndex], toColor);
             }
         }

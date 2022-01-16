@@ -9,9 +9,9 @@ public class LayersRandomizer
     XmlDocument xmlData;
     const string xmlPath = "Character_Assets_Structure/sprite_layers";
     List<XmlNode> allSelectedTypes = new List<XmlNode>();
-    string sexFilter { get; set; }
-    string raceFilter { get; set; }
-    string factionFilter { get; set; }
+    public string sexFilter { get; set; }
+    public string raceFilter { get; set; }
+    public string factionFilter { get; set; }
 
     public LayersRandomizer(string sexFilter = "any", string raceFilter = "any", string factionFilter = "any")
     {
@@ -56,8 +56,7 @@ public class LayersRandomizer
 
         if (xmlNodeList.Count > 0)
         {
-            System.Random random = new System.Random();
-            int randomNumber = random.Next(0, xmlNodeList.Count - 1);
+            int randomNumber = Random.Range(0, xmlNodeList.Count);
             XmlNode randomNode = xmlNodeList[randomNumber];
 
             Debug.Log($"Selected {randomNode.Attributes["directoryName"].Value}");
