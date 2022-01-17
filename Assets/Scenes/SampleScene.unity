@@ -414,6 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 795304238}
+  listOfButtons: []
 --- !u!1 &168616943
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1308,7 @@ GameObject:
   - component: {fileID: 616471393}
   m_Layer: 13
   m_Name: ShowPassageButton
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1764,6 +1765,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 795304238}
+  listOfButtons:
+  - {fileID: 616471388}
+  - {fileID: 1538888295}
+  - {fileID: 993586960}
 --- !u!224 &795304240
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2044,7 +2049,7 @@ GameObject:
   - component: {fileID: 993586965}
   m_Layer: 13
   m_Name: StartDialog
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2935,7 +2940,7 @@ GameObject:
   - component: {fileID: 1538888297}
   m_Layer: 13
   m_Name: NewInfoButton
-  m_TagString: Untagged
+  m_TagString: Button
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

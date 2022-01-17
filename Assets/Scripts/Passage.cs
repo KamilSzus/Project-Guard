@@ -9,25 +9,7 @@ public class Passage : MonoBehaviour
 {
     private void Update()
     {
-        if (Pause.isPaused==false)
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                Debug.Log("wersja 1");
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                Debug.Log("wersja 2");
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha3))
-            {
-                Debug.Log("wersja 3");
-            }
-            if (Input.GetKeyDown(KeyCode.Alpha4))
-            {
-                Debug.Log("wersja 4");
-            }
-        }
+
     }
     // Passage script add as Component to Canvas and as a Text Game Object set TextGameObject
     // To create TextGameObject create Create Empty in Canvas and set tag stamp
