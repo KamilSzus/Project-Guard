@@ -13,7 +13,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Person
   - Water
   - UI
   - 
@@ -43,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Person
+    uniqueID: 3109782249
+    locked: 1
   - name: Default
     uniqueID: 0
-    locked: 0
+    locked: 1

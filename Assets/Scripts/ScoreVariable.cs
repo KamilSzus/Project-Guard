@@ -12,21 +12,25 @@ public class ScoreVariable : MonoBehaviour
     public void growLoyalty()
     {
         loyalty += 1;
+        Debug.Log(loyalty);
     }
 
     public void growMorality()
     {
         morality += 1;
+        Debug.Log(morality);
     }
 
     public void growEvil()
     {
         evil += 1;
+        Debug.Log(evil);
     }
 
     public void growGreed()
     {
         greed += 1;
+        Debug.Log(greed);
     }
 
 
