@@ -11,10 +11,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prlog.unity
     guid: 55ba25381570c544aa5cb2c85a77899a
-  - enabled: 0
-    path: Assets/Scenes/Pause.unity
-    guid: 4810105b021f663479ec08e4799e9b3a
   - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: 3d664064843cd364e82f53f72258d4a3
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: e22631f82deaccd48a19f054c1793d9d
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: e549da8d89536994e88b24fb4f1fa10e
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

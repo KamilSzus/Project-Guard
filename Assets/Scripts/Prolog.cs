@@ -15,7 +15,7 @@ public class Prolog : MonoBehaviour
         transform.position = pos;
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            Application.LoadLevel("SampleScene");
+            Application.LoadLevel("Level1");
         }
     }
 }

@@ -10,6 +10,7 @@ public class Gear : MonoBehaviour
 
     void Start() {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.material.renderQueue = 4000;
         GameObject button = GameObject.Find("ExitPassButton");
         if (button != null)
             button.SetActive(false);
