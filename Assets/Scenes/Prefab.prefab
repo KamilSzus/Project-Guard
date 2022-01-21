@@ -1072,7 +1072,7 @@ GameObject:
   - component: {fileID: 435451106195088050}
   - component: {fileID: 8476800518378396377}
   m_Layer: 0
-  m_Name: OptionTwo
+  m_Name: OptionEvil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 8498052756540486610}
   - component: {fileID: 8716094455966820444}
   m_Layer: 0
-  m_Name: OptionOne
+  m_Name: OptionGreed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2842,7 +2842,7 @@ GameObject:
   - component: {fileID: 799765401642049090}
   - component: {fileID: 7001883164112824876}
   m_Layer: 0
-  m_Name: OptionThree
+  m_Name: OptionLoyalty
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3020,7 +3020,7 @@ GameObject:
   - component: {fileID: 363621598313800182}
   - component: {fileID: 1662472595795697203}
   m_Layer: 0
-  m_Name: OptionFour
+  m_Name: OptionMorality
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4111,7 +4111,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 158.6}
+  m_AnchoredPosition: {x: 246, y: 145}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5365176145339240299
