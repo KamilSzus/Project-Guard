@@ -261,5 +261,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.name
+      value: Rolnik
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Witaj, Strazniku jak tam mija warta?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Jak Zwykle milczysz? Nie rozumiem wasz zawsze tacy powazni nigdy zadnego
+        slowa
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: Mam wrazenie jak by wam wszystkim wycieli jezyki albo jakas klatwe na
+        was rzucili
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: 'No coz....
+
+        Nie moja sprawa oto moja przepustka'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
