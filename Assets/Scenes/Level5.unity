@@ -123,18 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &55236254 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 565837262001229351, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-  m_PrefabInstance: {fileID: 1853359117}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8ea9aea5830f4c4ca783d182724db31, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &629955370
+--- !u!1 &36413691
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,9 +131,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 629955373}
-  - component: {fileID: 629955372}
-  - component: {fileID: 629955371}
+  - component: {fileID: 36413694}
+  - component: {fileID: 36413693}
+  - component: {fileID: 36413692}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -152,25 +141,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &629955371
+--- !u!81 &36413692
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629955370}
+  m_GameObject: {fileID: 36413691}
   m_Enabled: 1
---- !u!20 &629955372
+--- !u!20 &36413693
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629955370}
+  m_GameObject: {fileID: 36413691}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.44705886, g: 0.44705886, b: 0.44705886, a: 0}
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -203,13 +192,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &629955373
+--- !u!4 &36413694
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 629955370}
+  m_GameObject: {fileID: 36413691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -217,32 +206,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1853359117
+--- !u!1001 &1625489982
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_text
-      value: 'Zazadaj wiecej
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_text
-      value: Przepedz
-      objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
-      objectReference: {fileID: 0}
-    - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_text
-      value: 'Zaakceptuj
-
-'
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -286,74 +259,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: dialogue.name
-      value: Dziwny Wedrowiec
-      objectReference: {fileID: 0}
-    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: dialogue.sentences.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: dialogue.sentences.Array.data[0]
-      value: "Witaj Stra\u017Cniku, odbylem dluga droge, ktora wiodla mnie przez
-        tereny opanowane wojna "
-      objectReference: {fileID: 0}
-    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: dialogue.sentences.Array.data[1]
-      value: Niestety podczas mej podrozy zostalem okradziony i stracilem glejt
-      objectReference: {fileID: 0}
-    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: dialogue.sentences.Array.data[2]
-      value: Zdaje sobie sprawe ze wpuszczanie przypadkowego podroznika jest wbrew
-        prawu ale moze przekona Ciebie ten mieszek
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 55236254}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: transtionToNextScene
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SceneTransition, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: SwitchScen, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 8716094455966820444, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_text
-      value: 'Aresztuj
-
-'
-      objectReference: {fileID: 0}
-    - target: {fileID: 9136167827291072779, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
