@@ -4,44 +4,261 @@
     <partTypes directoryName="_Torsos">
         <type directoryName="First_Torso" Sex="male" Race="any" Faction="any">
             <layers>
-                <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                <layer skin="True" colorMode="normal" blendMode="normal">
                     <filename>skin</filename>
                 </layer>
+				<layer blendMode="normal">
+					<filename>outline</filename>
+				</layer>
             </layers>
 
             <partsParents>
                 <partTypes directoryName="_Clothes" typeName="clothes">
+					<type directoryName="Bandit" Sex="male" Race="any" Faction="bandits">
+						<layers>
+							<layer blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+
+						<partsParents>
+							<partTypes directoryName="extra" typeName="extra">
+								<type directoryName="bonus0" Sex="male" Race="any" Faction="bandits">
+									<layers>
+									</layers>
+								</type>
+								<type directoryName="bonus1" Sex="male" Race="any" Faction="bandits">
+									<layers>
+										<layer blendMode="normal">
+											<filename>outline</filename>	
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="bonus2" Sex="male" Race="any" Faction="bandits">
+									<layers>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="bonus3" Sex="male" Race="any" Faction="bandits">
+									<layers>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+							</partTypes>
+						</partsParents>
+					</type>
                     <type directoryName="Farmer" Sex="male" Race="any" Faction="peasants">
                         <layers>
-                            <layer order="1" colorMode="normal" blendMode="normal">
+                            <layer blendMode="normal">
                                 <filename>1</filename>
                             </layer>
-                            <layer order="2" colorMode="normal" blendMode="normal">
+                            <layer colorMode="normal" primary="True" blendMode="normal">
                                 <filename>2</filename>
                             </layer>
-                            <layer order="3" colorMode="False" blendMode="normal">
-                                <filename>3</filename>
-                            </layer>
-                            <layer order="4" colorMode="False" blendMode="multiply">
+                            <layer blendMode="normal">
                                 <filename>shadow</filename>
+                            </layer>
+                            <layer blendMode="normal">
+                                <filename>3</filename>
                             </layer>
                         </layers>
                     </type>
+					<type directoryName="Farmer2" Sex="male" Race="any" Faction="peasants">
+						<layers>
+							<layer blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+					</type>
+					<type directoryName="Nobility" Sex="male" Race="any" Faction="nobility">
+						<layers>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+					</type>
+					<type directoryName="Nude" Sex="male" Race="any" Faction="peasants">
+						<layers>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+					</type>
+					<type directoryName="Outlaw" Sex="male" Race="any" Faction="outlaw">
+						<layers>
+							<layer blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+
+						<partsParents>
+							<partTypes directoryName="extra" typeName="extra">
+								<type directoryName="bonus0">
+									<layers>
+									</layers>
+								</type>
+								<type directoryName="bonus1">
+									<layers>
+										<layer blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="bonus2">
+									<layers>
+										<layer blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+							</partTypes>
+						</partsParents>
+					</type>
+					<type directoryName="Townsman" Sex="male" Race="any" Faction="townsman">
+						<layers>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+					</type>
+					<type directoryName="Townsman2" Sex="male" Race="any" Faction="townsman">
+						<layers>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>3</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+					</type>
+					<type directoryName="Traveller" Sex="male" Race="any" Faction="traveller">
+						<layers>
+							<layer blendMode="normal">
+								<filename>2</filename>
+							</layer>
+							<layer colorMode="normal" primary="True" blendMode="normal">
+								<filename>1</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
+						</layers>
+
+						<partsParents>
+							<partTypes directoryName="extra" typeName="extra">
+								<type directoryName="bonus0">
+									<layers>
+									</layers>
+								</type>
+								<type directoryName="bonus1">
+									<layers>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+									</layers>
+								</type>
+							</partTypes>
+						</partsParents>
+					</type>
                 </partTypes>
 
                 <partTypes directoryName="_Heads" typeName="head">
-                    <type directoryName="head1" Sex="male" Race="any" Faction="any">
+                    <type directoryName="head1" Sex="male" Race="human" Faction="any">
                         <layers>
-                            <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                            <layer skin="True" colorMode="normal" blendMode="normal">
                                 <filename>skin</filename>
                             </layer>
+							<layer blendMode="normal">
+								<filename>shadow</filename>
+							</layer>
+							<layer blendMode="normal">
+								<filename>outline</filename>
+							</layer>
                         </layers>
 
                         <partsParents>
                             <partTypes directoryName="_Mouths" typeName="mouth">
                                 <type directoryName="mouthType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>skin</filename>
                                         </layer>
                                     </layers>
@@ -49,7 +266,7 @@
 
                                 <type directoryName="mouthType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>skin</filename>
                                         </layer>
                                     </layers>
@@ -57,7 +274,7 @@
 
                                 <type directoryName="mouthType_3" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>skin</filename>
                                         </layer>
                                     </layers>
@@ -65,7 +282,7 @@
 
                                 <type directoryName="mouthType_4" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>skin</filename>
                                         </layer>
                                     </layers>
@@ -73,9 +290,13 @@
                             </partTypes>
 
                             <partTypes directoryName="_FacialHairs" typeName="facial hair">
+								<type directoryName="facialHairType_0" Sex="any" Race="any" Faction="any">
+									<layers>
+									</layers>
+								</type>
                                 <type directoryName="facialHairType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
                                     </layers>
@@ -83,7 +304,7 @@
 
                                 <type directoryName="facialHairType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
                                     </layers>
@@ -91,13 +312,13 @@
 
                                 <type directoryName="facialHairType_3" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
-                                        <layer order="2" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer colorMode="normal" blendMode="normal">
                                             <filename>2</filename>
                                         </layer>
-                                        <layer order="3" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>shadow</filename>
                                         </layer>
                                     </layers>
@@ -107,13 +328,13 @@
                             <partTypes directoryName="_Ears" typeName="ears">
                                 <type directoryName="earType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="normal" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>left_ear_skin</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="normal" blendMode="multiply">
+                                        <layer colorMode="normal" blendMode="normal">
                                             <filename>left_ear_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>left_ear</filename>
                                         </layer>
                                     </layers>
@@ -121,13 +342,13 @@
 
                                 <type directoryName="earType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="normal" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>left_ear_skin</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="normal" blendMode="multiply">
+                                        <layer colorMode="normal" blendMode="normal">
                                             <filename>left_ear_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>left_ear</filename>
                                         </layer>
                                     </layers>
@@ -137,96 +358,152 @@
                             <partTypes directoryName="_Eyes" typeName="eyes">
                                 <type directoryName="eyesType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>left_eye_white</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>left_eye</filename>
                                         </layer>
-                                        <layer order="3" pupil="True" colorMode="normal" blendMode="normal">
+                                        <layer pupil="True" colorMode="normal" blendMode="normal">
                                             <filename>left_eye_pupil</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>left_eye_shadow</filename>
                                         </layer>
-                                        <layer order="5" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>right_eye_white</filename>
                                         </layer>
-                                        <layer order="6" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>right_eye</filename>
                                         </layer>
-                                        <layer order="7" pupil="True" colorMode="normal" blendMode="normal">
+                                        <layer pupil="True" colorMode="normal" blendMode="normal">
                                             <filename>right_eye_pupil</filename>
                                         </layer>
-                                        <layer order="8" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>right_eye_shadow</filename>
                                         </layer>
                                     </layers>
                                 </type>
+								<type directoryName="eyesType_2" Sex="male" Race="any" Faction="any">
+									<layers>
+										<layer blendMode="normal">
+											<filename>left_eye_white</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>left_eye</filename>
+										</layer>
+										<layer pupil="True" colorMode="normal" blendMode="normal">
+											<filename>left_eye_pupil</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>left_eye_shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye_white</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye</filename>
+										</layer>
+										<layer pupil="True" colorMode="normal" blendMode="normal">
+											<filename>right_eye_pupil</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye_shadow</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="eyesType_3" Sex="male" Race="any" Faction="any">
+									<layers>
+										<layer blendMode="normal">
+											<filename>left_eye_white</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>left_eye</filename>
+										</layer>
+										<layer pupil="True" colorMode="normal" blendMode="normal">
+											<filename>left_eye_pupil</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>left_eye_shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye_white</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye</filename>
+										</layer>
+										<layer pupil="True" colorMode="normal" blendMode="normal">
+											<filename>right_eye_pupil</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>right_eye_shadow</filename>
+										</layer>
+									</layers>
+								</type>
                             </partTypes>
 
                             <partTypes directoryName="_Eyebrows" typeName="eyebrows">
                                 <type directoryName="eyebrowType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>left_eyebrow</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>left_eyebrow_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>right_eyebrow</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="normal" blendMode="multiply">
-                                            <filename>right_eyebrow</filename>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>right_eyebrow_shadow</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="eyebrowType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>left_eyebrow</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>left_eyebrow_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>right_eyebrow</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="normal" blendMode="multiply">
-                                            <filename>right_eyebrow</filename>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>right_eyebrow_shadow</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="eyebrowType_3" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>left_eyebrow</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>left_eyebrow_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>right_eyebrow</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="normal" blendMode="multiply">
-                                            <filename>right_eyebrow</filename>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>right_eyebrow_shadow</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="eyebrowType_4" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>left_eyebrow</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>left_eyebrow_shadow</filename>
                                         </layer>
-                                        <layer order="3" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>right_eyebrow</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="normal" blendMode="multiply">
-                                            <filename>right_eyebrow</filename>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>right_eyebrow_shadow</filename>
                                         </layer>
                                     </layers>
                                 </type>
@@ -235,87 +512,193 @@
                             <partTypes directoryName="_Noses" typeName="nose">
                                 <type directoryName="noseType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>skin</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>shadow</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>outline</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="noseType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>skin</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>shadow</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>outline</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="noseType_3" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>skin</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>shadow</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>outline</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="noseType_4" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="True" colorMode="multiply" blendMode="normal">
+                                        <layer skin="True" colorMode="normal" blendMode="normal">
                                             <filename>skin</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>shadow</filename>
+                                        </layer>
+                                        <layer colorMode="normal" blendMode="normal">
+                                            <filename>outline</filename>
                                         </layer>
                                     </layers>
                                 </type>
                             </partTypes>
 
                             <partTypes directoryName="_Hairs" typeName="hair">
+								<type directoryName="hairType_0" Sex="male" Race="any" Faction="any">
+									<layers>
+									</layers>
+								</type>
                                 <type directoryName="hairType_1" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>skin</filename>
                                         </layer>
                                     </layers>
                                 </type>
                                 <type directoryName="hairType_2" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="normal">
-                                            <filename>2</filename>
-                                        </layer>
-                                        <layer order="2" skin="False" hair="True" colorMode="normal" blendMode="normal">
+                                        <layer hair="True" colorMode="normal" blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
+										<layer blendMode="normal">
+											<filename>2</filename>
+										</layer>
                                     </layers>
                                 </type>
                                 <type directoryName="hairType_3" Sex="male" Race="any" Faction="any">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>shadow</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="False" blendMode="normal">
+										<layer hair="True" colorMode="normal" blendMode="normal">
+											<filename>1</filename>
+										</layer>
+                                        <layer blendMode="normal">
                                             <filename>2</filename>
-                                        </layer>
-                                        <layer order="3" skin="False" hair="True" colorMode="normal" blendMode="normal">
-                                            <filename>1</filename>
                                         </layer>
                                     </layers>
                                 </type>
                             </partTypes>
 
                             <partTypes directoryName="_Hats" typeName="hat">
+								<type directoryName="typeTop_Farmer_0" Sex="any" Race="any" Faction="any">
+									<layers>
+									</layers>
+								</type>
                                 <type directoryName="typeTop_Farmer_1" Sex="male" Race="any" Faction="peasants">
                                     <layers>
-                                        <layer order="1" skin="False" colorMode="false" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>1</filename>
                                         </layer>
-                                        <layer order="2" skin="False" colorMode="false" blendMode="normal">
+                                        <layer blendMode="normal">
                                             <filename>2</filename>
                                         </layer>
-                                        <layer order="3" skin="False" colorMode="normal" blendMode="normal">
+                                        <layer colorMode="normal" blendMode="normal">
                                             <filename>3</filename>
                                         </layer>
-                                        <layer order="4" skin="False" colorMode="False" blendMode="multiply">
+                                        <layer blendMode="normal">
                                             <filename>shadow</filename>
+                                        </layer>
+                                        <layer blendMode="normal">
+                                            <filename>5</filename>
                                         </layer>
                                     </layers>
                                 </type>
+								<type directoryName="helmet" Sex="male" Race="any" Faction="outlaw">
+									<layers>
+										<layer blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>highlight</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="hood" Sex="male" Race="any" Faction="any">
+									<layers>
+										<layer colorMode="normal" secondary="True" blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="mask" Sex="male" Race="any" Faction="bandits">
+									<layers>
+										<layer colorMode="normal" secondary="True" blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="nobilityHat" Sex="male" Race="any" Faction="nobility">
+									<layers>
+										<layer colorMode="normal" secondary="True" blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>2</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
+								<type directoryName="townsman" Sex="male" Race="any" Faction="townsman">
+									<layers>
+										<layer colorMode="normal" secondary="True" blendMode="normal">
+											<filename>1</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>shadow</filename>
+										</layer>
+										<layer blendMode="normal">
+											<filename>outline</filename>
+										</layer>
+									</layers>
+								</type>
                             </partTypes>
                         </partsParents>
                     </type>     
