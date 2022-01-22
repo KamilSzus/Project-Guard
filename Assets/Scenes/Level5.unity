@@ -261,5 +261,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.name
+      value: Ranny zolnierz
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
