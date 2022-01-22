@@ -213,9 +213,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2104672691046351408, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Przepedz
+      objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: "Pom\xF3\u017C"
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -265,5 +277,51 @@ PrefabInstance:
       propertyPath: dialogue.name
       value: Ranny zolnierz
       objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: 'Co sie tak gapisz? Zamiast stac
+
+        tak bez czynnie lepiej mi
+        pomoz'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Nie widzisz ze jestem zolnierzem Krola?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476800518378396377, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1625489983}
+    - target: {fileID: 8476800518378396377, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: deathEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 8476800518378396377, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchScen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Zabij
+      objectReference: {fileID: 0}
+    - target: {fileID: 9136167827291072779, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+--- !u!114 &1625489983 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7082234691267389584, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+  m_PrefabInstance: {fileID: 1625489982}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bb96915c690b5458912402e8dd2af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

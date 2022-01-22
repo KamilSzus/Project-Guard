@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SwitchScen : MonoBehaviour
 {
-    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Level4" };
+    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Level4", "Level5" };
 
     public void loadScene()
     {
@@ -48,6 +48,11 @@ public class SwitchScen : MonoBehaviour
             }
 
         }
+    }
+    public void deathEnd()
+    {
+        //SceneManager.LoadScene("deathEnd");
+        Debug.Log("deathEnd");
     }
     
 }
