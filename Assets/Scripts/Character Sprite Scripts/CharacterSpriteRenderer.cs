@@ -8,9 +8,21 @@ using UnityEngine;
 public class CharacterSpriteRenderer : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
+
+    public factions faction = factions.all;
+    public races race = races.all;
+    public genders gender = genders.all;
+
+    public primaryColorType primaryColor = primaryColorType.poorPallet;
+    public secondaryColorType secondaryColor = secondaryColorType.poorPallet;
+
+    public bool includeNoneOptions = true;
+
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        DisplayNewCharacter();
     }
 
     // Update is called once per frame
@@ -22,15 +34,62 @@ public class CharacterSpriteRenderer : MonoBehaviour
     public void DisplayNewCharacter()
     {
         CharcterSpriteManager character = new CharcterSpriteManager();
-        character.characterHairColor = RandomValue(CharactersColors.GetHumanHairColorsDict());
-        character.characterSkinColor = RandomValue(CharactersColors.GetHumanSkinColorsDict());
-        character.characterPupilColor = RandomValue(CharactersColors.GetPupilColorsDict());
-        character.characterPrimaryColor = RandomValue(CharactersColors.GetPoorClothesColorsDict());
-        character.characterSceondaryColor = RandomValue(CharactersColors.GetPoorClothesColorsDict());
-        character.characterFaction = "bandits";
+
+        character.characterFaction = faction.ToString();
+        character.characterRace = race.ToString();
+        character.characterSex = gender.ToString();
+        character.withoutNone = !includeNoneOptions;
 
         character.GenerateRandomSprite();
+
+        switch (race)
+        {
+            case races.all:
+                character.characterHairColor = Color.clear;
+                character.characterSkinColor = Color.clear;
+                break;
+            case races.human:
+                character.characterHairColor = RandomValue(CharactersColors.GetHumanHairColorsDict());
+                character.characterSkinColor = RandomValue(CharactersColors.GetHumanSkinColorsDict());
+                break;
+            case races.orc:
+                character.characterHairColor = RandomValue(CharactersColors.GetOrcHairColorsDict());
+                character.characterSkinColor = RandomValue(CharactersColors.GetOrcSkinColorsDict());
+                break;
+            case races.elf:
+                character.characterHairColor = RandomValue(CharactersColors.GetElfHairColorsDict());
+                character.characterSkinColor = RandomValue(CharactersColors.GetElfSkinColorsDict());
+                break;
+            case races.khajiit:
+                character.characterHairColor = RandomValue(CharactersColors.GetKhajiitHairColorsDict());
+                character.characterSkinColor = RandomValue(CharactersColors.GetKhajiitSkinColorsDict());
+                break;
+        }
+ 
+        character.characterPupilColor = RandomValue(CharactersColors.GetPupilColorsDict());
+
+        switch (primaryColor)
+        {
+            case primaryColorType.poorPallet:
+                character.characterPrimaryColor = RandomValue(CharactersColors.GetPoorClothesColorsDict());
+                break;
+            case primaryColorType.richPallet:
+                character.characterPrimaryColor = RandomValue(CharactersColors.GetNobelClothesColorsDict());
+                break;
+        }
+
+        switch (secondaryColor)
+        {
+            case secondaryColorType.poorPallet:
+                character.characterSceondaryColor = RandomValue(CharactersColors.GetPoorClothesColorsDict());
+                break;
+            case secondaryColorType.richPallet:
+                character.characterSceondaryColor = RandomValue(CharactersColors.GetNobelClothesColorsDict());
+                break;
+        }
+
         Texture2D texture = character.CreateSpriteTexture();
+
         SetSprite(texture);
     }
 
@@ -47,5 +106,44 @@ public class CharacterSpriteRenderer : MonoBehaviour
         List<string> keyList = new List<string>(dict.Keys);
         string randomKey = keyList[UnityEngine.Random.Range(0, keyList.Count)];
         return dict[randomKey];
+    }
+
+    public enum factions
+    {
+        all,
+        peasants,
+        nobility,
+        outlaw,
+        townsman,
+        traveller,
+        bandits
+    }
+
+    public enum races
+    {
+        all,
+        human,
+        orc,
+        elf,
+        khajiit
+    }
+
+    public enum genders
+    {
+        all,
+        male,
+        KOBIETAXD
+    }
+
+    public enum primaryColorType
+    {
+        poorPallet,
+        richPallet
+    }
+
+    public enum secondaryColorType
+    {
+        poorPallet,
+        richPallet
     }
 }

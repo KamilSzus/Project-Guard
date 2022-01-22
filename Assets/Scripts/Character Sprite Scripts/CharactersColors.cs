@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -60,6 +61,32 @@ public static class CharactersColors
 
         return dict;
     }
+
+    internal static Dictionary<string, Color> GetKhajiitSkinColorsDict()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static Dictionary<string, Color> GetElfSkinColorsDict()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static Dictionary<string, Color> GetElfHairColorsDict()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static Dictionary<string, Color> GetKhajiitHairColorsDict()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static Dictionary<string, Color> GetOrcHairColorsDict()
+    {
+        throw new NotImplementedException();
+    }
+
     public static Dictionary<string, Color> GetHumanSkinColorsDict()
     {
         Dictionary<string, Color> dict = new Dictionary<string, Color>();
@@ -78,7 +105,7 @@ public static class CharactersColors
         return dict;
     }
 
-    public static Dictionary<string, Color> GetOrcSkinColorDict()
+    public static Dictionary<string, Color> GetOrcSkinColorsDict()
     {
         Dictionary<string, Color> dict = new Dictionary<string, Color>();
 
