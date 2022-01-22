@@ -213,13 +213,39 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1716858774120233360, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 238.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716858774120233360, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000083923
+      objectReference: {fileID: 0}
     - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: Option one
+      value: Zarekwiruj dobytek
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Przepusc
       objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: 'Zabij
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -264,6 +290,40 @@ PrefabInstance:
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.name
+      value: Czlowiek z Dziwnym Kapeluszem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Co to ma znaczyc!! CZY TY NIE WIESZ KIM JESTEM !!???
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Z wyrazu twojej tepej twarzy domyslam sie ze nie. Ech...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "Jestem Asome asu Ahmann am\u2019Jardir am\u2019Kaji tlumaczac na twoj
+        prosty jezyk jestem synem Shar'Dama Ka"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: Masz mnie przepuscic bez zadnych problemow inaczej twoj krol sie dowie
+        i stracisz glowe
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: "Oka\u017C szacunek i przepusc"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}

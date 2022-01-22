@@ -10,7 +10,7 @@ public class PartManager
     public Color skinColor { get; set; } = Color.clear;
     public Color hairColor { get; set; } = Color.clear;
     public Color pupilColor { get; set; } = Color.clear;
-    public Color clothesColor { get; set; } = Color.clear;
+    public Color primaryColor { get; set; } = Color.clear;
     public Color secondaryColor { get; set; } = Color.clear;
 
     public PartManager(XmlNode partNode)
@@ -55,11 +55,17 @@ public class PartManager
                 if (skinColor != Color.clear && layer.Attributes["skin"] != null && layer.Attributes["skin"].Value == "True")
                     layerPixels = ColorLayer(layerPixels, skinColor, blend, textureLayer.width, textureLayer.height);
 
-                else if (hairColor != Color.clear && layer.Attributes["hair"] != null && layer.Attributes["hair"].Value == "True")
+                if (hairColor != Color.clear && layer.Attributes["hair"] != null && layer.Attributes["hair"].Value == "True")
                     layerPixels = ColorLayer(layerPixels, hairColor, blend, textureLayer.width, textureLayer.height);
 
-                else if (pupilColor != Color.clear && layer.Attributes["pupil"] != null && layer.Attributes["pupil"].Value == "True")
+                if (pupilColor != Color.clear && layer.Attributes["pupil"] != null && layer.Attributes["pupil"].Value == "True")
                     layerPixels = ColorLayer(layerPixels, pupilColor, blend, textureLayer.width, textureLayer.height);
+
+                if (primaryColor != Color.clear && layer.Attributes["primary"] != null && layer.Attributes["primary"].Value == "True")
+                    layerPixels = ColorLayer(layerPixels, primaryColor, blend, textureLayer.width, textureLayer.height);
+
+                if (secondaryColor != Color.clear && layer.Attributes["secondary"] != null && layer.Attributes["secondary"].Value == "True")
+                    layerPixels = ColorLayer(layerPixels, secondaryColor, blend, textureLayer.width, textureLayer.height);
             }
 
             if (layer.Attributes["blendMode"].Value == "normal")
@@ -107,7 +113,13 @@ public class PartManager
                 int pixelIndex = x + (y * width);
 
                 if (layer[pixelIndex].a > 0)
-                    newLayer[pixelIndex] = blendType(bottomLayer[pixelIndex], layer[pixelIndex]);
+                {
+                    Color newColor = blendType(bottomLayer[pixelIndex], layer[pixelIndex]);
+                    if (bottomLayer[pixelIndex] != Color.clear)
+                        newColor.a = 1;
+                    newLayer[pixelIndex] = newColor;
+                }
+                    
             }
         }
 

@@ -8,14 +8,15 @@ public class CharcterSpriteManager
     public Color characterHairColor { get; set; } = Color.clear;
     public Color characterSkinColor { get; set; } = Color.clear;
     public Color characterPupilColor { get; set; } = Color.clear;
-    private Color characterPrimaryColor { get; set; } = Color.clear; //Not used
-    private Color characterSceondaryColor = Color.clear; //Not used
+    public Color characterPrimaryColor { get; set; } = Color.clear;
+    public Color characterSceondaryColor { get; set; } = Color.clear;
 
-    // if "all" then without filter , if "any" then only not defined tags
-    public string characterSex { get; set; } = "any";
-    public string characterRace { get; set; } = "any";
-    public string characterFaction { get; set; } = "any";
-    private string characterEmotion = "any"; //Not used
+    public string characterSex { get; set; } = "all";
+    public string characterRace { get; set; } = "all";
+    public string characterFaction { get; set; } = "all";
+    //private string characterEmotion = "any"; //Not used
+
+    public bool withoutNone { get; set; } = false;
 
     List<XmlNode> nodes = null;
 
@@ -28,30 +29,9 @@ public class CharcterSpriteManager
         layerRandomizer.sexFilter = characterSex;
         layerRandomizer.raceFilter = characterRace;
         layerRandomizer.factionFilter = characterFaction;
+        layerRandomizer.withoutNone = withoutNone;
 
         nodes = layerRandomizer.GetRandomParts();
-    }
-
-    public void RandomHairColor()
-    {
-        characterHairColor = RandomColor(CharactersColors.GetHairColorsDict());
-    }
-
-    public void RandomSkinColor()
-    {
-        characterHairColor = RandomColor(CharactersColors.GetSkinColorsDict());
-    }
-
-    public void RandomPupilColor()
-    {
-        characterHairColor = RandomColor(CharactersColors.GetPupilColorsDict());
-    }
-
-    private Color RandomColor(Dictionary<string, Color> dict)
-    {
-        List<string> keyList = new List<string>(dict.Keys);
-        string randomKey = keyList[Random.Range(0, keyList.Count)];
-        return dict[randomKey];
     }
 
     public Texture2D CreateSpriteTexture()
@@ -73,6 +53,8 @@ public class CharcterSpriteManager
             partManager.skinColor = characterSkinColor;
             partManager.hairColor = characterHairColor;
             partManager.pupilColor = characterPupilColor;
+            partManager.primaryColor = characterPrimaryColor;
+            partManager.secondaryColor = characterSceondaryColor;
 
             textureParts.Add(partManager.mergeLayers());
         }
