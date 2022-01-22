@@ -213,9 +213,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Zazadaj lapowki
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Przepusc
+      objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Aresztuj
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -284,6 +304,10 @@ PrefabInstance:
       value: 'No coz....
 
         Nie moja sprawa oto moja przepustka'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Zbierz myto
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
