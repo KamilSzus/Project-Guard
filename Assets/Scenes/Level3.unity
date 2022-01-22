@@ -213,6 +213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 997103511149575832, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: Czlowiek_z_Dziwnym_Kapeluszem
+      objectReference: {fileID: 0}
     - target: {fileID: 1716858774120233360, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_SizeDelta.x
       value: 238.05
@@ -232,6 +236,22 @@ PrefabInstance:
     - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_fontSizeBase
       value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: faction
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: primaryColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: secondaryColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: includeNoneOptions
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
