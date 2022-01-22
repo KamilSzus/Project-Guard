@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 997103511149575832, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: "Z\u0142y_Wie\u015Bniak"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: faction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2777849585264282620, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -181,6 +189,27 @@ PrefabInstance:
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.name
+      value: "Z\u0142y Wie\u015Bniak"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: "Cz\u0142owieku daj spok\xF3j przed chwil\u0105 t\u0119dy przechodzi\u0142em"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: "Zapomnia\u0142em Krowy z domu i wracam si\u0119 po ni\u0105\t"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: "Jakie to prawo jest g\u0142upie cz\u0142owiek zrobi kilka krok\xF3w
+        i ju\u017C musi pokazywa\u0107 papier"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: "Za poprzedniego Kr\xF3la to by\u0142y czasy."
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}

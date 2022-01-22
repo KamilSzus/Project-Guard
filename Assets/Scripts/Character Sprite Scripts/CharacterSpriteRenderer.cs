@@ -23,6 +23,9 @@ public class CharacterSpriteRenderer : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
 
         DisplayNewCharacter();
+        GameObject button = GameObject.Find("ExitPassButton");
+        if (button != null)
+            button.SetActive(false);
     }
 
     // Update is called once per frame
