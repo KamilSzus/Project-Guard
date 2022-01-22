@@ -40,18 +40,21 @@ public class LayersRandomizer
 
         foreach (XmlNode node in rootList)
         {
-            XmlNode randomNode = randomizeType(node);
+            XmlNode randomNode = RandomizeType(node);
             if (randomNode != null)
+            {
                 allSelectedTypes.Add(randomNode);
 
-            RecursiveCharacterPartsAdder(nodePath + "/type[@directoryName='" 
-                + randomNode.Attributes["directoryName"].Value + "']/partsParents/partTypes");
+                RecursiveCharacterPartsAdder(nodePath + "/type[@directoryName='"
+                    + randomNode.Attributes["directoryName"].Value + "']/partsParents/partTypes");
+            } 
         }
     }
 
-    private XmlNode randomizeType(XmlNode node)
+    private XmlNode RandomizeType(XmlNode node)
     {
-        string stringPath = "type"; //[@Sex='" + sexFilter + "' and @Race='" + raceFilter + "' and @Faction='" + factionFilter + "']";
+        string filter = CreateFilterString();
+        string stringPath = "type" + filter;
         XmlNodeList xmlNodeList = node.SelectNodes(stringPath);
 
         if (xmlNodeList.Count > 0)
@@ -64,8 +67,33 @@ public class LayersRandomizer
         } 
         else
         {
-            Debug.Log("Didn't find any types for " + node.Attributes["ID"].Value + " with following filters: sex=" + sexFilter + "race=" + raceFilter + "faction=" + factionFilter);
+            Debug.Log("Didn't find any types for "+ node.Attributes["directoryName"].Value + " with following filters: sex=" + sexFilter + " race=" + raceFilter + " faction=" + factionFilter);
             return null;
         }
     }
+
+    private string CreateFilterString()
+    {
+        if (sexFilter == "all" && raceFilter == "all" && factionFilter == "all")
+            return "";
+
+        string filter = "[";
+        if (sexFilter != "all")
+            filter += "@Sex='" + sexFilter + "' " + "or @Faction='any')";
+        if (raceFilter != "all")
+        {
+            if (sexFilter != "all")
+                filter += "and ";
+            filter += "@Race='" + raceFilter + "' " + "or @Faction='any')";
+        }
+        if (factionFilter != "all")
+        {
+            if (raceFilter != "all" || sexFilter != "all")
+                filter += "and ";
+            filter += "(@Faction='" + factionFilter + "' " + "or @Faction='any')";
+        }
+        filter += "]";
+        return filter;
+    }
+
 }

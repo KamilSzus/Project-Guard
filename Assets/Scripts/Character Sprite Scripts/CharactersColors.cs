@@ -4,10 +4,42 @@ using UnityEngine;
 
 public static class CharactersColors
 {
-    public static Dictionary<string, Color> GetHairColorsDict()
+    public static Dictionary<string, Color> GetPoorClothesColorsDict()
     {
         Dictionary<string, Color> dict = new Dictionary<string, Color>();
 
+        dict.Add("none", Color.clear);
+        dict.Add("light brown", new Color(0.858f, 0.662f, 0.478f));
+        dict.Add("brown", new Color(0.615f, 0.423f, 0.262f));
+        dict.Add("deep brown", new Color(0.407f, 0.168f, 0.074f));
+        dict.Add("light grey", new Color(0.572f, 0.541f, 0.478f));
+        dict.Add("grey", new Color(0.513f, 0.478f, 0.423f));
+        dict.Add("dirty white", new Color(0.921f, 0.803f, 0.749f));
+        dict.Add("grey blue", new Color(0.254f, 0.294f, 0.337f));
+        dict.Add("grey pink", new Color(0.407f, 0.168f, 0.074f));
+
+        return dict;
+    }
+
+    public static Dictionary<string, Color> GetNobelClothesColorsDict()
+    {
+        Dictionary<string, Color> dict = new Dictionary<string, Color>();
+
+        dict.Add("none", Color.clear);
+        dict.Add("crimson", new Color(0.858f, 0.662f, 0.478f));
+        dict.Add("red pink", new Color(0.454f, 0.133f, 0.235f));
+        dict.Add("emerald", new Color(0.109f, 0.447f, 0.325f));
+        dict.Add("dark red", new Color(0.364f, 0.184f, 0.180f));
+        dict.Add("purple", new Color(0.329f, 0.156f, 0.372f));
+
+        return dict;
+    }
+
+    public static Dictionary<string, Color> GetHumanHairColorsDict()
+    {
+        Dictionary<string, Color> dict = new Dictionary<string, Color>();
+
+        dict.Add("none", Color.clear);
         dict.Add("black", new Color(0.145f, 0.133f, 0.133f));
         dict.Add("deep brown", new Color(0.262f, 0.184f, 0.137f));
         dict.Add("Medium brown", new Color(0.478f, 0.290f, 0.180f));
@@ -24,14 +56,15 @@ public static class CharactersColors
         dict.Add("medium blond", new Color(0.968f, 0.949f, 0.290f));
         dict.Add("grey", new Color(0.823f, 0.823f, 0.815f));
         dict.Add("white", new Color(0.964f, 0.964f, 0.952f));
-        dict.Add("deep purple", new Color(0.384f, 0.031f, 0.549f));
+        //dict.Add("deep purple", new Color(0.384f, 0.031f, 0.549f));
 
         return dict;
     }
-    public static Dictionary<string, Color> GetSkinColorsDict()
+    public static Dictionary<string, Color> GetHumanSkinColorsDict()
     {
         Dictionary<string, Color> dict = new Dictionary<string, Color>();
 
+        dict.Add("none", Color.clear);
         dict.Add("pale white", new Color(0.992f, 0.976f, 0.909f));
         dict.Add("fair", new Color(0.980f, 0.949f, 0.8f));
         dict.Add("medium white", new Color(0.952f, 0.886f, 0.647f));
@@ -41,6 +74,13 @@ public static class CharactersColors
         dict.Add("brown", new Color(0.796f, 0.443f, 0.003f));
         dict.Add("dark brown", new Color(0.568f, 0.286f, 0.011f));
         dict.Add("black", new Color(0.392f, 0.203f, 0.007f));
+
+        return dict;
+    }
+
+    public static Dictionary<string, Color> GetOrcSkinColorDict()
+    {
+        Dictionary<string, Color> dict = new Dictionary<string, Color>();
 
         dict.Add("orcish light green", new Color(0.509f, 0.760f, 0.039f));
         dict.Add("orcish green", new Color(0.258f, 0.592f, 0.047f));
@@ -54,6 +94,7 @@ public static class CharactersColors
     {
         Dictionary<string, Color> dict = new Dictionary<string, Color>();
 
+        dict.Add("none", Color.clear);
         dict.Add("blue", new Color(0.521f, 0.709f, 0.996f));
         dict.Add("brown", new Color(0.564f, 0.294f, 0.015f));
         dict.Add("green", new Color(0.513f, 0.713f, 0.407f));
