@@ -12,6 +12,7 @@ public class LayersRandomizer
     public string sexFilter { get; set; }
     public string raceFilter { get; set; }
     public string factionFilter { get; set; }
+    public bool withoutNone { get; set; } = false;
 
     public LayersRandomizer(string sexFilter = "any", string raceFilter = "any", string factionFilter = "any")
     {
@@ -79,18 +80,24 @@ public class LayersRandomizer
 
         string filter = "[";
         if (sexFilter != "all")
-            filter += "@Sex='" + sexFilter + "' " + "or @Faction='any')";
+            filter += "(@Sex='" + sexFilter + "' " + "or @Sex='any')";
         if (raceFilter != "all")
         {
             if (sexFilter != "all")
                 filter += "and ";
-            filter += "@Race='" + raceFilter + "' " + "or @Faction='any')";
+            filter += "(@Race='" + raceFilter + "' " + "or @Race='any')";
         }
         if (factionFilter != "all")
         {
             if (raceFilter != "all" || sexFilter != "all")
                 filter += "and ";
             filter += "(@Faction='" + factionFilter + "' " + "or @Faction='any')";
+        }
+        if (withoutNone)
+        {
+            if (raceFilter != "all" || sexFilter != "all" || factionFilter != "all")
+                filter += "and ";
+            filter += "not(@None)";
         }
         filter += "]";
         return filter;

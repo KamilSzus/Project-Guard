@@ -11,11 +11,12 @@ public class CharcterSpriteManager
     public Color characterPrimaryColor { get; set; } = Color.clear;
     public Color characterSceondaryColor { get; set; } = Color.clear;
 
-    // if "all" then without filter , if "any" then only not defined tags
     public string characterSex { get; set; } = "all";
     public string characterRace { get; set; } = "all";
     public string characterFaction { get; set; } = "all";
     //private string characterEmotion = "any"; //Not used
+
+    public bool withoutNone { get; set; } = false;
 
     List<XmlNode> nodes = null;
 
@@ -28,6 +29,7 @@ public class CharcterSpriteManager
         layerRandomizer.sexFilter = characterSex;
         layerRandomizer.raceFilter = characterRace;
         layerRandomizer.factionFilter = characterFaction;
+        layerRandomizer.withoutNone = withoutNone;
 
         nodes = layerRandomizer.GetRandomParts();
     }

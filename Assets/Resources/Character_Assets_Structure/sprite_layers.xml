@@ -605,7 +605,7 @@
                             </partTypes>
 
                             <partTypes directoryName="_Hats" typeName="hat">
-								<type directoryName="typeTop_Farmer_0" Sex="any" Race="any" Faction="any">
+								<type directoryName="typeTop_Farmer_0" None="True" Sex="any" Race="any" Faction="any">
 									<layers>
 									</layers>
 								</type>
@@ -644,7 +644,7 @@
 										</layer>
 									</layers>
 								</type>
-								<type directoryName="hood" Sex="male" Race="any" Faction="any">
+								<type directoryName="hood" Sex="male" Race="any" Faction="peasants">
 									<layers>
 										<layer colorMode="normal" secondary="True" blendMode="normal">
 											<filename>1</filename>
