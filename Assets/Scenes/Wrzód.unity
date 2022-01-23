@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &133541160
+--- !u!1001 &914233150
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -132,49 +132,63 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 997103511149575832, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
-      value: Pijany_Wedrowiec
+      value: "Wrz\xF3d"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2080715885397416465, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: "Przep\u0119dz"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104672691046351408, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: Aresztuj
       objectReference: {fileID: 0}
     - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: Zabierz alkohol
+      value: Aresztuj
       objectReference: {fileID: 0}
-    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_fontSize
-      value: 22
+    - target: {fileID: 3066943702359229110, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 245
       objectReference: {fileID: 0}
-    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 22
+    - target: {fileID: 3066943702359229110, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -217.99998
       objectReference: {fileID: 0}
-    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: faction
-      value: 1
+    - target: {fileID: 3658887625203751387, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -272
       objectReference: {fileID: 0}
-    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: includeNoneOptions
-      value: 0
+    - target: {fileID: 3658887625203751387, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -217.99998
       objectReference: {fileID: 0}
-    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_text
-      value: "wska\u017C drog\u0119 do domu"
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_fontSize
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 15
+    - target: {fileID: 4273507723105010364, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: Zabij
       objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
       objectReference: {fileID: 0}
+    - target: {fileID: 4808483471611345615, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: 'Aresztuj
-
-'
+      value: "Przep\u0119dz"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001883164112824876, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 914233151}
+    - target: {fileID: 7001883164112824876, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: zabijWrzoda
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001883164112824876, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SwitchScen, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -222,34 +236,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.name
-      value: Pijany Wedrowiec
+      value: "Wrz\xF3d"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "O panie szefie, kierowniku jest sprawa nie widzia\u0142 pan gdzies
-        moich znajomych"
+      value: "ej, kolego! Nowy? Chyba ci\u0119 jeszcze tu nie widzia\u0142em. "
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Widzialem ich ostatnio jak wychodzilem z Karczmy Rzym w mie\u015Bcie."
+      value: "Nie zwracaj na mnie uwagi. B\u0119d\u0119 si\u0119 trzyma\u0142 ciebie,
+        spokojna g\u0142owa."
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Chwila od kiedy w centrum kraju s\u0105 przej\u015Bcia graniczne. Chyba
-        ci\u0105gle jestem pijany"
+      value: "Wiesz co? Ju\u017C ci\u0119 polubi\u0142em! Prze\u017Cyjemy wsp\xF3lnie
+        wiele ciekawych przyg\xF3d! Co nie? Gdzie nocujesz? "
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: "Ci\u0105gle tak milczysz i si\u0119 patrzysz bez emocji... O nie trafi\u0142em
-        do Roguecairn"
+      value: "Jakby\u015B chcia\u0142, mo\u017Cesz przenocowa\u0107 u mnie!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161164970898101543, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161164970898101543, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -218
       objectReference: {fileID: 0}
     - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: Zignoruj
+      value: Zabij
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
---- !u!1 &2109110124
+--- !u!114 &914233151 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7082234691267389584, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+  m_PrefabInstance: {fileID: 914233150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bb96915c690b5458912402e8dd2af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2058198440
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -257,9 +289,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2109110127}
-  - component: {fileID: 2109110126}
-  - component: {fileID: 2109110125}
+  - component: {fileID: 2058198443}
+  - component: {fileID: 2058198442}
+  - component: {fileID: 2058198441}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -267,21 +299,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2109110125
+--- !u!81 &2058198441
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109110124}
+  m_GameObject: {fileID: 2058198440}
   m_Enabled: 1
---- !u!20 &2109110126
+--- !u!20 &2058198442
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109110124}
+  m_GameObject: {fileID: 2058198440}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -318,13 +350,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &2109110127
+--- !u!4 &2058198443
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2109110124}
+  m_GameObject: {fileID: 2058198440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

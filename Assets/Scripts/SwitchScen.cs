@@ -4,14 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SwitchScen : MonoBehaviour
 {
-    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Level4", "Level5" };
+    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Wrzód", "Level4", "Level5", "Level6", "Level7" };
 
     public void loadScene()
     {
         if (scenLoader.Count != 0)
         {
             string scanName = scenLoader[Random.Range(0, scenLoader.Count)];
-            scenLoader.Remove(scanName);
+            if (!scanName.Equals("Wrzód") || scenLoader.Count == 1)
+            {
+                scenLoader.Remove(scanName);
+
+            }
             SceneManager.LoadScene(scanName);
         }
         else
@@ -53,6 +57,12 @@ public class SwitchScen : MonoBehaviour
     {
         //SceneManager.LoadScene("deathEnd");
         Debug.Log("deathEnd");
+    }
+
+    public void zabijWrzoda()
+    {
+        scenLoader.Remove("Wrzód");
+        loadScene();
     }
     
 }

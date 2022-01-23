@@ -7,10 +7,6 @@ using UnityEngine.UI;
 
 public class Passage : MonoBehaviour
 {
-    private void Update()
-    {
-
-    }
     // Passage script add as Component to Canvas and as a Text Game Object set TextGameObject
     // To create TextGameObject create Create Empty in Canvas and set tag stamp
     private PersonInfo info;
