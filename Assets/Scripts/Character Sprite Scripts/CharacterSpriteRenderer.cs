@@ -48,8 +48,8 @@ public class CharacterSpriteRenderer : MonoBehaviour
         switch (race)
         {
             case races.all:
-                character.characterHairColor = Color.clear;
-                character.characterSkinColor = Color.clear;
+                character.characterHairColor = RandomValue(CharactersColors.GetHumanHairColorsDict()); //Color.clear;
+                character.characterSkinColor = RandomValue(CharactersColors.GetHumanSkinColorsDict()); //Color.clear;
                 break;
             case races.human:
                 character.characterHairColor = RandomValue(CharactersColors.GetHumanHairColorsDict());
