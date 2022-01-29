@@ -662,9 +662,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583631136}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e9cb0ab8ab0b904daea69e1afe678d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 8775510ff5792b34c9b60a8e1ec2deac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faction: 6
+  race: 0
+  gender: 0
+  primaryColor: 0
+  secondaryColor: 0
+  includeNoneOptions: 1
 --- !u!1 &1775511120
 GameObject:
   m_ObjectHideFlags: 0

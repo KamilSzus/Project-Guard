@@ -84,7 +84,17 @@ public static class CharactersColors
 
     internal static Dictionary<string, Color> GetOrcHairColorsDict()
     {
-        throw new NotImplementedException();
+        Dictionary<string, Color> dict = new Dictionary<string, Color>();
+
+        dict.Add("none", Color.clear);
+        dict.Add("black", new Color(0.145f, 0.133f, 0.133f));
+        dict.Add("deep brown", new Color(0.262f, 0.184f, 0.137f));
+        dict.Add("Medium brown", new Color(0.478f, 0.290f, 0.180f));
+        dict.Add("brown", new Color(0.537f, 0.345f, 0.141f));
+        dict.Add("light brown", new Color(0.741f, 0.525f, 0.298f));
+        dict.Add("chestnut brown", new Color(0.654f, 0.243f, 0.125f));
+
+        return dict;
     }
 
     public static Dictionary<string, Color> GetHumanSkinColorsDict()
