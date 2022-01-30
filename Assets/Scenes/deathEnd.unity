@@ -219,9 +219,17 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 218b3073ce31e1c408e65fd78f5fe686, type: 3}
     - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_text
-      value: "Ranny \u017Colnierz okaza\u0142 si\u0119 bandyt\u0105, swoj\u0105 dobro\u0107
-        przyp\u0142aci\u0142e\u015B w\u0142asnym \u017Cyciem"
+      value: Ranny zolnierz okazal sie bandyta, swoja dobroc przyplaciles wlasnym
+        zyciem
       objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5531654582058065134, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
     - target: {fileID: 2396943926221313302, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Layer
       value: 5
@@ -286,6 +294,22 @@ PrefabInstance:
       propertyPath: m_SpriteSortPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -497.9964
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 151.1744
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -238.57686
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -127.692505
+      objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -333,6 +357,22 @@ PrefabInstance:
     - target: {fileID: 7515272675647221806, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 387.3569
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 132.1114
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.3577
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.898
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}

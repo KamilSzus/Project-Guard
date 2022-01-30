@@ -130,6 +130,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_text
+      value: Twoje kombinowanie nie oplacilo sie. Chciales wziac zbyt duzo i masz
+        konsekwencje tego. Zostales wrzucony i kto wie, ile lat tu posiedzisz. Spedz
+        ten czas liczac wszystkie zlote monety ktore zebrales wczesniej.
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5531654582058065134, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
     - target: {fileID: 3415273092157449157, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -157,6 +171,22 @@ PrefabInstance:
     - target: {fileID: 3683360716712828754, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Name
       value: Ending
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -512.2875
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 308.5062
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 220
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -225
       objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite
@@ -205,6 +235,22 @@ PrefabInstance:
     - target: {fileID: 7515272675647221806, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 350.7932
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 266.0403
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.3966
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 3.9799
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
