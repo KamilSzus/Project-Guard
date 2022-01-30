@@ -303,15 +303,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Przesun sie chloptasiu, bo inaczej poczujesz zly dotyk
+      value: "Przesu\u0144 si\u0119 ch\u0142optasiu, bo inaczej poczujesz z\u0142y
+        dotyk"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Co sie Gapisz zapomniales jezyka w gebie
+      value: "Co si\u0119 gapisz zapomnia\u0142e\u015B j\u0119zyka w g\u0119bie?!"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: GIN
+      value: "GI\u0143"
       objectReference: {fileID: 0}
     - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
