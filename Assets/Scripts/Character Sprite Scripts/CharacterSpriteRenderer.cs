@@ -9,6 +9,8 @@ public class CharacterSpriteRenderer : MonoBehaviour
 {
     SpriteRenderer spriteRenderer;
 
+    public spriteType sprite = spriteType.random;
+
     public factions faction = factions.all;
     public races race = races.all;
     public genders gender = genders.all;
@@ -22,7 +24,16 @@ public class CharacterSpriteRenderer : MonoBehaviour
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        DisplayNewCharacter();
+        switch (sprite)
+        {
+            case spriteType.random:
+                DisplayNewCharacter();
+                break;
+            case spriteType.wrzod:
+                SetSprite(Resources.Load<Texture2D>(SpritesMetaData.spriteAssetsFolderName + "/wrzod"));
+                break;
+        }
+
         GameObject button = GameObject.Find("ExitPassButton");
         if (button != null)
             button.SetActive(false);
@@ -148,5 +159,11 @@ public class CharacterSpriteRenderer : MonoBehaviour
     {
         poorPallet,
         richPallet
+    }
+
+    public enum spriteType
+    {
+        random,
+        wrzod
     }
 }
