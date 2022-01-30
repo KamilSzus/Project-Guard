@@ -321,21 +321,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: Co to ma znaczyc!! CZY TY NIE WIESZ KIM JESTEM !!???
+      value: "Co to ma znaczy\u0107?! CZY TY NIE WIESZ KIM JESTEM !!???"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: Z wyrazu twojej tepej twarzy domyslam sie ze nie. Ech...
+      value: "Z wyrazu twojej t\u0119pej twarzy domy\u015Blam si\u0119 \u017Ce nie.
+        Ech..."
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Jestem Asome asu Ahmann am\u2019Jardir am\u2019Kaji tlumaczac na twoj
-        prosty jezyk jestem synem Shar'Dama Ka"
+      value: "Jestem Asome asu Ahmann am\u2019Jardir am\u2019Kaji t\u0142umacz\u0105c
+        na tw\xF3j prosty j\u0119zyk jestem synem Shar'Dama Ka"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[3]
-      value: Masz mnie przepuscic bez zadnych problemow inaczej twoj krol sie dowie
-        i stracisz glowe
+      value: "Masz mnie przepu\u015Bcic bez \u017Cadnych problem\xF3w inaczej tw\xF3j
+        kr\xF3l si\u0119 dowie i stracisz glowe"
       objectReference: {fileID: 0}
     - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text

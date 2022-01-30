@@ -208,15 +208,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
-      value: "Cz\u0142owieku daj spok\xF3j przed chwil\u0105 t\u0119dy przechodzi\u0142em"
+      value: "Cz\u0142owieku daj spok\xF3j, przed chwil\u0105 t\u0119dy przechodzi\u0142em"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[1]
-      value: "Zapomnia\u0142em Krowy z domu i wracam si\u0119 po ni\u0105\t"
+      value: "Zapomnia\u0142em krowy z domu i wracam si\u0119 po ni\u0105\t"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: dialogue.sentences.Array.data[2]
-      value: "Jakie to prawo jest g\u0142upie cz\u0142owiek zrobi kilka krok\xF3w
+      value: "Jakie to prawo jest g\u0142upie, cz\u0142owiek zrobi kilka krok\xF3w
         i ju\u017C musi pokazywa\u0107 papier"
       objectReference: {fileID: 0}
     - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
