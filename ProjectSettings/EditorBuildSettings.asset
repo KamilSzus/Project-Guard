@@ -44,4 +44,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level10.unity
     guid: 3fe05e343ccdc1040b5fd2ec9e7b900a
+  - enabled: 1
+    path: Assets/Scenes/Level8.unity
+    guid: 2d6ea2e735bc5e34cae96d0274f38613
+  - enabled: 1
+    path: Assets/Scenes/deathEnd.unity
+    guid: 8ff4f45fbdb92044b924002a164448b5
+  - enabled: 1
+    path: Assets/Scenes/evilEnd.unity
+    guid: f7328bf6b7209fc42b8bcb0e1c9b8857
+  - enabled: 1
+    path: Assets/Scenes/greedEnd.unity
+    guid: d0c09a5af32cc8b459e6589eff5bc13f
+  - enabled: 1
+    path: Assets/Scenes/moralityEnd.unity
+    guid: 1a22a915dee88f64984e8c1c746fca3a
+  - enabled: 1
+    path: Assets/Scenes/loyaltyEnd.unity
+    guid: ff75bce0950466d4c8b113974a058b91
+  - enabled: 1
+    path: Assets/Scenes/Level11.unity
+    guid: d7731af105098674d885cd4afe4830a4
   m_configObjects: {}
