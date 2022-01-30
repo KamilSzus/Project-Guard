@@ -326,15 +326,17 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069736666}
-  m_Text: "\t\t\t\t\t\t\tProject Guard\r\n\r\nNastaly ciezkie czasy. Czasy w ktorych
-    nawet\r\nbracia podrzynaja sobie gardla w nocy a matki\r\ntopia swoje ledwo narodzone
-    dzieci. Sa to \r\nczasy niespokojne ale nie wybieramy sobie\r\nmomentu w ktorym
-    zyjem. Jestes straznikiem\r\nna granicy dwoch wrogo nastawionych do siebie\r\npanstw
-    Twoim celem jest weryfikowanie kto\r\nmoze przekroczyc granice a kto nie. Czy\r\nokazesz
-    slabosc i niepos\u0142uszenstwo wobec \r\nswojego wladcy czy wytrwale bedziesz
-    trzymal\r\nsie wytyczonych zasad zalezy juz od Ciebie\r\nTwoje decyzje moga miec
-    powazne konsekfencje\r\ndla Ciebie jak i panstwa w ktorym mieszkasz\r\nwiec postepuj
-    rozwaznie.\r\nNastala Twoja Warta... "
+  m_Text: "\t\t\t\t\t\t\tProject Guard\r\n\r\nNastaly ci\u0119\u017Ckie czasy. Czasy
+    w kt\xF3rych nawet\r\nbracia podrzynaj\u0105 sobie gard\u0142a w nocy a matki\r\ntopi\u0105
+    swoje ledwo narodzone dzieci. S\u0105 to \r\nczasy niespokojne, ale nie wybieramy
+    sobie\r\nmomentu w kt\xF3rym \u017Cyjemy. Jeste\u015B stra\u017Cnikiem\r\nna
+    granicy dw\xF3ch wrogo nastawionych do siebie\r\npa\u0144stw. Twoim celem jest
+    weryfikowanie kto\r\nmo\u017Ce przekroczy\u0107 granice, a kto nie. Czy\r\noka\u017Cesz
+    s\u0142abo\u015B\u0107 i niepos\u0142usze\u0144stwo wobec \r\nswojego wladcy
+    czy wytrwale b\u0119dziesz trzyma\u0142\r\nsi\u0119 wytyczonych zasad zale\u017Cy
+    ju\u017C od Ciebie.\r\nTwoje decyzje mog\u0105 mie\u0107 powa\u017Cne konsekwencje\r\ndla
+    Ciebie jak i pa\u0144stwa, w kt\xF3rym mieszkasz\r\nwi\u0119c post\u0119puj rozwa\u017Cnie.\r\nNasta\u0142a
+    Twoja warta... "
   m_OffsetZ: -20
   m_CharacterSize: 1
   m_LineSpacing: 1
