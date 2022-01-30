@@ -32,6 +32,9 @@ public class CharacterSpriteRenderer : MonoBehaviour
             case spriteType.wrzod:
                 SetSprite(Resources.Load<Texture2D>(SpritesMetaData.spriteAssetsFolderName + "/wrzod"));
                 break;
+            case spriteType.ghost:
+                SetSprite(Resources.Load<Texture2D>(SpritesMetaData.spriteAssetsFolderName + "/ghost"));
+                break;
         }
 
         GameObject button = GameObject.Find("ExitPassButton");
@@ -164,6 +167,7 @@ public class CharacterSpriteRenderer : MonoBehaviour
     public enum spriteType
     {
         random,
-        wrzod
+        wrzod,
+        ghost
     }
 }

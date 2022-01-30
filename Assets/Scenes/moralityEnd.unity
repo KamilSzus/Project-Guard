@@ -213,6 +213,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_text
+      value: Gratulacje, dzieki twojemu kompasowi moralnemu pomogles tym potrzebujacym,
+        a zlych ukarales. W krolestwie panuje stabilnosc i rownowaga. Ludnosc zauwazyla
+        dobro Straznika i dostaje codziennie swiezo upieczone ciasto od lokalnej
+        babci.
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.x
+      value: -88.192474
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.z
+      value: -72.78021
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5531654582058065134, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
     - target: {fileID: 3415273092157449157, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -240,6 +263,22 @@ PrefabInstance:
     - target: {fileID: 3683360716712828754, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Name
       value: Ending
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -200.3679
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 165.0617
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 67.21332
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -417.0797
       objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite
@@ -288,6 +327,22 @@ PrefabInstance:
     - target: {fileID: 7515272675647221806, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 486.1388
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 153.6578
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0694
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.1711
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}

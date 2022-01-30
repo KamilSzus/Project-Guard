@@ -130,6 +130,36 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_text
+      value: Dzieki upilnowaniu porzadku i dzielnej walce z zewnetrznym zlem, nasz
+        Straznik zostal przez samego Krola nagrodzony za swoj trud i lojalnosc wobec
+        krolestwa. Taki sam los spotkal tez tworcow tej wspanialej gry.
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.w
+      value: -8.689384
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.x
+      value: -81.04355
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.y
+      value: 11.706284
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_margin.z
+      value: -82.39856
+      objectReference: {fileID: 0}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
+    - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5531654582058065134, guid: 2604610a0b4285c4ca7330f9633555a3, type: 2}
     - target: {fileID: 3415273092157449157, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -157,6 +187,22 @@ PrefabInstance:
     - target: {fileID: 3683360716712828754, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Name
       value: Ending
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -337.6356
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 229.5166
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.70526
+      objectReference: {fileID: 0}
+    - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -382.45508
       objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite
@@ -205,6 +251,22 @@ PrefabInstance:
     - target: {fileID: 7515272675647221806, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 363.312
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 211.6414
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 1.0142
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2.9227
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
