@@ -32,22 +32,22 @@ public class SwitchScen : MonoBehaviour
 
             if (keyOfMaxValue == "loyalty")
             {
-                //SceneManager.LoadScene("loyaltyEnd");
+                SceneManager.LoadScene("loyaltyEnd");
                 Debug.Log("loyaltyEnd");
             }
             else if (keyOfMaxValue == "morality")
             {
-                //SceneManager.LoadScene("moralityEnd");
+                SceneManager.LoadScene("moralityEnd");
                 Debug.Log("moralityEnd");
             }
             else if (keyOfMaxValue == "evil")
             {
-                //SceneManager.LoadScene("evilEnd");
+                SceneManager.LoadScene("evilEnd");
                 Debug.Log("evilEnd");
             }
             else
             {
-                //SceneManager.LoadScene("greedEnd");
+                SceneManager.LoadScene("greedEnd");
                 Debug.Log("greedEnd");
             }
 
@@ -55,7 +55,7 @@ public class SwitchScen : MonoBehaviour
     }
     public void deathEnd()
     {
-        //SceneManager.LoadScene("deathEnd");
+        SceneManager.LoadScene("deathEnd");
         Debug.Log("deathEnd");
     }
 
