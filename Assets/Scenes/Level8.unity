@@ -213,9 +213,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 997103511149575832, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Name
+      value: OrkBandyta
+      objectReference: {fileID: 0}
+    - target: {fileID: 2306204925882992063, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Okradnij Cialo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: race
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: faction
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: primaryColor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: secondaryColor
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Obezwladnij i pusc wolno
+      objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Zabij
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -260,6 +292,30 @@ PrefabInstance:
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.name
+      value: Agresywny ork
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[0]
+      value: Przesun sie chloptasiu, bo inaczej poczujesz zly dotyk
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Co sie Gapisz zapomniales jezyka w gebie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8041403280167557495, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: GIN
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_text
+      value: Aresztuj
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}

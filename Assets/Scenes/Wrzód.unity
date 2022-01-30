@@ -146,25 +146,33 @@ PrefabInstance:
       propertyPath: m_text
       value: Aresztuj
       objectReference: {fileID: 0}
+    - target: {fileID: 2777849585264282616, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: sprite
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3066943702359229110, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 245
+      value: -150
       objectReference: {fileID: 0}
     - target: {fileID: 3066943702359229110, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -217.99998
+      value: 24.49997
       objectReference: {fileID: 0}
     - target: {fileID: 3658887625203751387, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -272
+      value: -450
       objectReference: {fileID: 0}
     - target: {fileID: 3658887625203751387, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -217.99998
+      value: 24.49997
       objectReference: {fileID: 0}
     - target: {fileID: 4273507723105010364, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Zabij
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273507723105010364, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4729707558088332726, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
@@ -174,9 +182,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5378406558080169481, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6549518784067938331, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: "Przep\u0119dz"
+      value: Przepedz
       objectReference: {fileID: 0}
     - target: {fileID: 7001883164112824876, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -189,6 +201,10 @@ PrefabInstance:
     - target: {fileID: 7001883164112824876, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: SwitchScen, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111421153406320824, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_CullTransparentMesh
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7560360367372645283, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_RootOrder
@@ -258,11 +274,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8161164970898101543, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -26
+      value: 150
       objectReference: {fileID: 0}
     - target: {fileID: 8161164970898101543, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -218
+      value: 24.49997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742891192256342830, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8849935520364462997, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text

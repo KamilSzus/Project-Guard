@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SwitchScen : MonoBehaviour
 {
-    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Wrzód", "Level4", "Level5", "Level6", "Level7" };
+    static public List<string> scenLoader = new List<string> {"Level2", "Level3", "Wrzód", "Level4", "Level5", "Level6", "Level7", "Level8", "Level9", "Level10" };
 
     public void loadScene()
     {

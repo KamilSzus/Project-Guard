@@ -156,7 +156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_text
-      value: "wska\u017C drog\u0119 do domu"
+      value: wskaz droge do domu
       objectReference: {fileID: 0}
     - target: {fileID: 4218831262505124553, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_fontSize
