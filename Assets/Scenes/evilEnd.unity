@@ -217,7 +217,7 @@ PrefabInstance:
       propertyPath: m_text
       value: Niestety twoje zlo i nieuwaga odbilo sie na stanie calego krolestwa.
         Widzisz tylko jak wszystko wokol ciebie plonie. Nie masz pojecia czy powinienes
-        czuc zalobe, czy to jest czego chciales.
+        czuc zalobe, czy to jest to czego chciales.
       objectReference: {fileID: 0}
     - target: {fileID: 774945034149577793, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_fontAsset
@@ -255,6 +255,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ending
       objectReference: {fileID: 0}
+    - target: {fileID: 4664366083246340803, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664366083246340803, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664366083246340803, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664366083246340803, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_SizeDelta.x
       value: -379.8516
@@ -270,6 +286,22 @@ PrefabInstance:
     - target: {fileID: 5126589704259116581, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -416.5584
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 531.0941
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 188.7293
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -20.422882
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -155.19415
       objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite

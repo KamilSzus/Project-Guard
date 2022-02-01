@@ -310,6 +310,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -127.692505
       objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 324.4904
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 177.948
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -244
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489261751717587890, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -120
+      objectReference: {fileID: 0}
     - target: {fileID: 7505971142339061431, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -360,19 +376,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 387.3569
+      value: 302.7277
       objectReference: {fileID: 0}
     - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 132.1114
+      value: 158.8364
       objectReference: {fileID: 0}
     - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.3577
+      value: 0.6854
       objectReference: {fileID: 0}
     - target: {fileID: 9010032586756640304, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 3.898
+      value: 0.6375
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 148004830fd080741ab3e1ee8526d8b0, type: 3}
