@@ -228,6 +228,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 965178920992509935, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 230.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 965178920992509935, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 65.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 965178920992509935, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3.975
+      objectReference: {fileID: 0}
+    - target: {fileID: 965178920992509935, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -17.2
+      objectReference: {fileID: 0}
     - target: {fileID: 997103511149575832, guid: c64b0361abc3f2346a04b826845f1fed, type: 3}
       propertyPath: m_Name
       value: Dziwny_Wedrowiec
